@@ -3,14 +3,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
+import { BienvenidoComponent } from './componentes/bienvenido/bienvenido.component';
+import { LoginComponent } from './componentes/login/login.component';
+import { ErrorComponent } from './componentes/error/error.component';
+import { MenuPrincipalComponent } from './componentes/menu-principal/menu-principal.component';
+import { Ejercicio1Component } from './componentes/ejercicio1/ejercicio1.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BienvenidoComponent,
+    LoginComponent,
+    ErrorComponent,
+    MenuPrincipalComponent,
+    Ejercicio1Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
