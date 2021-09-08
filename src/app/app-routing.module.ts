@@ -4,6 +4,7 @@ import { BienvenidoComponent } from './componentes/bienvenido/bienvenido.compone
 import { Ejercicio1Component } from './componentes/ejercicio1/ejercicio1.component';
 import { ErrorComponent } from './componentes/error/error.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { QuienSoyComponent } from './componentes/quien-soy/quien-soy.component';
 
 
 const routes: Routes = [
@@ -12,8 +13,9 @@ const routes: Routes = [
   { path: 'casa', component: BienvenidoComponent },
   { path: 'ingreso', component: LoginComponent },
   { path: 'ejercicio1', component: Ejercicio1Component },
+  { path: 'quien-soy', component: QuienSoyComponent },
   { path: '', redirectTo: 'casa', pathMatch: 'full' },
-  { path: '**', component: ErrorComponent },
+  { path: '**', component: ErrorComponent }
 ];
 
 @NgModule({

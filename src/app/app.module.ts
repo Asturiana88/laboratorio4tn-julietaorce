@@ -9,6 +9,7 @@ import { LoginComponent } from './componentes/login/login.component';
 import { ErrorComponent } from './componentes/error/error.component';
 import { MenuPrincipalComponent } from './componentes/menu-principal/menu-principal.component';
 import { Ejercicio1Component } from './componentes/ejercicio1/ejercicio1.component';
+import { QuienSoyComponent } from './componentes/quien-soy/quien-soy.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { Ejercicio1Component } from './componentes/ejercicio1/ejercicio1.compone
     LoginComponent,
     ErrorComponent,
     MenuPrincipalComponent,
-    Ejercicio1Component
+    Ejercicio1Component,
+    QuienSoyComponent
   ],
   imports: [
     BrowserModule,
